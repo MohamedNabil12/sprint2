@@ -142,6 +142,7 @@
     <Compile Include="Controllers\MedicinesController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Controllers\WorkersController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -193,6 +194,9 @@
     </Compile>
     <Compile Include="Model\SiteRole.cs" />
     <Compile Include="Model\User.cs">
+      <DependentUpon>databaseProModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Worker.cs">
       <DependentUpon>databaseProModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />

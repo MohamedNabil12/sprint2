@@ -98,6 +98,18 @@
     <Property Name="City" Type="nchar" MaxLength="20" />
     <Property Name="Login_Id" Type="int" />
   </EntityType>
+  <EntityType Name="Worker">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fname" Type="varchar" MaxLength="50" />
+    <Property Name="Lname" Type="varchar" MaxLength="50" />
+    <Property Name="Age" Type="int" />
+    <Property Name="Address" Type="varchar" MaxLength="200" />
+    <Property Name="SSN" Type="nvarchar" MaxLength="50" />
+    <Property Name="PhoneNumber" Type="nvarchar" MaxLength="50" />
+  </EntityType>
   <Association Name="FK__Cart__User_Id__7C1A6C5A">
     <End Role="User" Type="Self.User" Multiplicity="0..1" />
     <End Role="Cart" Type="Self.Cart" Multiplicity="*" />
@@ -217,6 +229,7 @@
     <EntitySet Name="Product" EntityType="Self.Product" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Role" EntityType="Self.Role" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Worker" EntityType="Self.Worker" Schema="dbo" store:Type="Tables" />
     <AssociationSet Name="FK__Cart__User_Id__7C1A6C5A" Association="Self.FK__Cart__User_Id__7C1A6C5A">
       <End Role="User" EntitySet="User" />
       <End Role="Cart" EntitySet="Cart" />
