@@ -363,6 +363,7 @@
     <Content Include="Views\User\UserRegistration.cshtml" />
     <Content Include="Views\Workers\WorkersList.cshtml" />
     <Content Include="Views\Workers\Details.cshtml" />
+    <Content Include="Views\Workers\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Artical\" />
