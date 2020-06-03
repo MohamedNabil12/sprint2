@@ -15,7 +15,7 @@ namespace PROJ_SW.Controllers
         private databaseProEntities db = new databaseProEntities();
 
         // GET: Workers
-        public ActionResult Index()
+        public ActionResult WorkersList()
         {
             return View(db.Workers.ToList());
         }
@@ -52,7 +52,7 @@ namespace PROJ_SW.Controllers
             {
                 db.Workers.Add(worker);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("WorkersList");
             }
 
             return View(worker);
@@ -84,7 +84,7 @@ namespace PROJ_SW.Controllers
             {
                 db.Entry(worker).State = EntityState.Modified;
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("WorkersList");
             }
             return View(worker);
         }
@@ -112,7 +112,7 @@ namespace PROJ_SW.Controllers
             Worker worker = db.Workers.Find(id);
             db.Workers.Remove(worker);
             db.SaveChanges();
-            return RedirectToAction("Index");
+            return RedirectToAction("WorkersList");
         }
 
         protected override void Dispose(bool disposing)

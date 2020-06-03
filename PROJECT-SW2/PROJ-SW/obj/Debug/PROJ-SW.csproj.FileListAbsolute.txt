@@ -1639,3 +1639,4 @@ D:\sprint2\PROJECT-SW2\PROJ-SW\obj\Debug\PROJ-SW.csproj.CoreCompileInputs.cache
 D:\sprint2\PROJECT-SW2\PROJ-SW\obj\Debug\PROJ-SW.csproj.CopyComplete
 D:\sprint2\PROJECT-SW2\PROJ-SW\obj\Debug\PROJ-SW.dll
 D:\sprint2\PROJECT-SW2\PROJ-SW\obj\Debug\PROJ-SW.pdb
+D:\sprint2\PROJECT-SW2\PROJ-SW\obj\Debug\PROJ-SW.csprojAssemblyReference.cache

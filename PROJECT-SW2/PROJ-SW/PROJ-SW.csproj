@@ -361,6 +361,8 @@
     <Content Include="Views\Cart_Product\Edit.cshtml" />
     <Content Include="Views\Cart_Product\Index.cshtml" />
     <Content Include="Views\User\UserRegistration.cshtml" />
+    <Content Include="Views\Workers\WorkersList.cshtml" />
+    <Content Include="Views\Workers\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Artical\" />
