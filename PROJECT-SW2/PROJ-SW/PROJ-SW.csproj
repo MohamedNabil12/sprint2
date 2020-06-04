@@ -364,6 +364,8 @@
     <Content Include="Views\Workers\WorkersList.cshtml" />
     <Content Include="Views\Workers\Details.cshtml" />
     <Content Include="Views\Workers\Create.cshtml" />
+    <Content Include="Views\Workers\EditWorker.cshtml" />
+    <Content Include="Views\Workers\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Artical\" />
