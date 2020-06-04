@@ -25,6 +25,11 @@ namespace PROJ_SW.Controllers
             return View(db.Workers.ToList());
         }
 
+        public ActionResult DeleteWorker()
+        {
+            return View(db.Workers.ToList());
+        }
+
         // GET: Workers/Details/5
         public ActionResult Details(int? id)
         {
