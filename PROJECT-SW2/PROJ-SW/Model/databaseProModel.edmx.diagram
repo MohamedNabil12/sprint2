@@ -25,6 +25,7 @@
         <AssociationConnector Association="databaseProModel.FK__Login__Role_Id__308E3499" ManuallyRouted="false" />
         <AssociationConnector Association="databaseProModel.FK__User__Login_Id__318258D2" ManuallyRouted="false" />
         <EntityTypeShape EntityType="databaseProModel.Worker" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="databaseProModel.Branch" Width="1.5" PointX="3.375" PointY="0.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

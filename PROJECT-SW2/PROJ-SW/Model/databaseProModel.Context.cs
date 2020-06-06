@@ -36,5 +36,6 @@ namespace PROJ_SW.Model
         public virtual DbSet<Role> Roles { get; set; }
         public virtual DbSet<User> Users { get; set; }
         public virtual DbSet<Worker> Workers { get; set; }
+        public virtual DbSet<Branch> Branches { get; set; }
     }
 }

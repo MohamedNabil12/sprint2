@@ -272,6 +272,7 @@
       <End Role="User" EntitySet="Users" />
     </AssociationSet>
     <EntitySet Name="Workers" EntityType="databaseProModel.Worker" />
+    <EntitySet Name="Branches" EntityType="databaseProModel.Branch" />
   </EntityContainer>
   <EntityType Name="Worker">
     <Key>
@@ -284,5 +285,14 @@
     <Property Name="Address" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
     <Property Name="SSN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="PhoneNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Branch">
+    <Key>
+      <PropertyRef Name="branch_id" />
+    </Key>
+    <Property Name="branch_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="city" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="address" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="phone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
   </EntityType>
 </Schema>

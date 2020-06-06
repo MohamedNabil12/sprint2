@@ -133,6 +133,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\ArticalController.cs" />
+    <Compile Include="Controllers\BranchesController.cs" />
     <Compile Include="Controllers\CartsController.cs" />
     <Compile Include="Controllers\Cart_ProductController.cs" />
     <Compile Include="Controllers\CategoriesController.cs" />
@@ -145,6 +146,9 @@
     <Compile Include="Controllers\WorkersController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Branch.cs">
+      <DependentUpon>databaseProModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Model\Cart.cs">
       <DependentUpon>databaseProModel.tt</DependentUpon>
@@ -368,6 +372,13 @@
     <Content Include="Views\Workers\Edit.cshtml" />
     <Content Include="Views\Workers\DeleteWorker.cshtml" />
     <Content Include="Views\Workers\Delete.cshtml" />
+    <Content Include="Views\Branches\Create.cshtml" />
+    <Content Include="Views\Branches\Delete.cshtml" />
+    <Content Include="Views\Branches\Details.cshtml" />
+    <Content Include="Views\Branches\Edit.cshtml" />
+    <Content Include="Views\Branches\Index.cshtml" />
+    <Content Include="Views\Branches\DELETEBRANCH.cshtml" />
+    <Content Include="Views\Branches\EDITBRANCH.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Artical\" />
